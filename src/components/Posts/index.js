@@ -23,10 +23,21 @@ function Posts() {
         setShow(true);
   };
 
+  function checkModel(model, form) {
+    //   debugger
+      if (model) {
+        return save(form, model.id);
+      } else {
+        return save(form, null);
+      }
+  }
+
+
   function handleSubmit(e) {
     e.preventDefault();
     const form = new FormData(formRef.current);
-    save(form, model.id);
+    checkModel(post.current, form)
+    // save(form, model.id);
   }
 
   function handleDelete(id) {

@@ -9,17 +9,21 @@ import routes from "../../routes";
           <ul className="nav nav-pills flex-column">
  
             <li className="nav-item">
-              <Link className= {`nav-link ${match.type.name==='Dashboard'?"active":''}`} href="/">Dashboard <span className="sr-only">(current)</span></Link>
+              <Link className= {`nav-link ${match && match.type.name==='Dashboard'?"active":''}`} href="/">Dashboard <span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
-              <Link className= {`nav-link ${match.type.name==='Posts'?"active":''}`}  href="/posts" >Posts</Link>
+              <Link className= {`nav-link ${match && match.type.name==='Posts'?"active":''}`}  href="/posts" >Posts</Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link ${match.type.name==='CommentsReduce'?"active":''}`}  href="/comments/reduce">Comments reduce</Link>
+              <Link className={`nav-link ${match && match.type.name==='Users'?"active":''}`}  href="/users" >Users </Link>
+
+            </li>
+            <li className="nav-item">
+              <Link className={`nav-link ${match && match.type.name==='CommentsReduce'?"active":''}`}  href="/comments/reduce">Comments reduce</Link>
             </li>
            
             <li className="nav-item">
-              <Link className={`nav-link ${match.type.name==='CommentsState'?"active":''}`}  href="/comments/state">Comments state</Link>
+              <Link className={`nav-link ${match && match.type.name==='CommentsState'?"active":''}`}  href="/comments/state">Comments state</Link>
             </li>
            
 

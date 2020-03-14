@@ -2,11 +2,11 @@
   "posts": [
     {
       "title": "test",
-      "author": "adv",
+      "author": "ladv",
       "id": 17
     },
     {
-      "title": "Another",
+      "title": "Anotherk",
       "author": "git",
       "id": 19
     }
@@ -14,13 +14,23 @@
   "comments": [
     {
       "title": "test1",
-      "body": "amazon",
+      "body": "amazon2",
       "id": 2
     },
     {
       "title": "test2",
       "body": "red",
       "id": 3
+    },
+    {
+      "title": "hola",
+      "body": "hola",
+      "id": 4
+    },
+    {
+      "title": "test",
+      "body": "test",
+      "id": 5
     }
   ],
   "profile": {
@@ -28,5 +38,25 @@
     "lastname": "Jobs",
     "status": "Active",
     "theme": "light"
-  }
+  },
+  "users": [
+    {
+      "name": "test",
+      "lastName": "hi",
+      "password": "hi",
+      "id": 1
+    },
+    {
+      "name": "prueba",
+      "lastName": "hola2888",
+      "password": "12345f",
+      "id": 2
+    },
+    {
+      "name": "test@test.com",
+      "lastName": "iihg",
+      "password": "12345kjj6",
+      "id": 3
+    }
+  ]
 }
