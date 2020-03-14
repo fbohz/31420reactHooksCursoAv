@@ -75,3 +75,8 @@ yarn build
 - Ejercicio
     - createUser (nombre, apellido, password)
     - cambiar routes, cambiar sidebar
+
+- Profesor:
+Javier Holguin
+https://github.com/javierh2k
+codeSandbox: Javierh2k. Buscar por reducer simple
